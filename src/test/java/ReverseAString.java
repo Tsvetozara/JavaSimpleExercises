@@ -1,5 +1,4 @@
 public class ReverseAString {
-
     public static void main(String[] args) {
 
         //Approach 1 - lenght(), charAt()
@@ -15,13 +14,12 @@ public class ReverseAString {
 
         //Approach 2 - without using string methods
 
-        String str = "welocome";
+        String str = "welcome";
         String reverse = "";
 
         char a[] = str.toCharArray();
 
-        for (int i = a.length - 1; i >= 0; i--)
-        {
+        for (int i = a.length - 1; i >= 0; i--) {
             reverse = reverse + a[i];
         }
         System.out.println("Reverse string is: " + reverse);
@@ -32,7 +30,9 @@ public class ReverseAString {
 
         //.out.println("Reverse string is: " + b.reverse());
 
+        //Approach 4 - using StringBuilder Class
+
+        StringBuilder b = new StringBuilder("welcome");
+        System.out.println("Reverse string is: " + b.reverse());
     }
-}
-
-
+    }
