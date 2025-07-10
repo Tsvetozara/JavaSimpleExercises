@@ -10,8 +10,36 @@ public class Account {
         this.accno = accno;
     }
 
-    int getAccno()
+    public int getAccno()
     {
         return accno;
     }
+
+    public void setAccno()
+    {
+        this.accno= accno;
+    }
+
+    public String getName()
+    {
+        return name;
+    }
+
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    public double getAmount()
+    {
+        return amount;
+    }
+
+    public void setAmount(double amount)
+    {
+        this.amount=amount;
+    }
+
+
+
 }
