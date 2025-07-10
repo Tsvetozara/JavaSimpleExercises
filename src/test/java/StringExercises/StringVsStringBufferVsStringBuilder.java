@@ -1,3 +1,5 @@
+package StringExercises;
+
 public class StringVsStringBufferVsStringBuilder {
 
     public static void main(String[] args) {

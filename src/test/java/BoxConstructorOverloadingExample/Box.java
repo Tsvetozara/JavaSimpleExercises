@@ -1,10 +1,10 @@
-package Box;
+package BoxConstructorOverloadingExample;
 
-public class BoxConstructorOverloadingExample {
+public class Box {
 
     double width, height, depth;
 
-    BoxConstructorOverloadingExample()
+    Box()
     {
         width = 0;
         height = 0;
@@ -13,14 +13,14 @@ public class BoxConstructorOverloadingExample {
         //width=height=depth=0;
     }
 
-    BoxConstructorOverloadingExample(double w, double h, double d)
+    Box(double w, double h, double d)
     {
         width = w;
         height = h;
         depth = d;
     }
 
-    BoxConstructorOverloadingExample(double len)
+    Box(double len)
     {
         width=depth=height=len;
     }

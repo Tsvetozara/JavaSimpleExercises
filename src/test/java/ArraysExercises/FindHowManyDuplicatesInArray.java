@@ -1,3 +1,5 @@
+package ArraysExercises;
+
 public class FindHowManyDuplicatesInArray {
     public static void main(String[] args) {
 

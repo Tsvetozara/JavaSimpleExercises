@@ -1,3 +1,5 @@
+package StringExercises;
+
 public class Immutable {
     public static void main(String[] args) {
 

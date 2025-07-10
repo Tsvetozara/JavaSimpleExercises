@@ -1,3 +1,5 @@
+package StringExercises;
+
 public class StringComparison {
     public static void main(String[] args) {
 

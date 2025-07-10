@@ -1,10 +1,10 @@
-package Adder;
+package AdderOverloadingExample;
 
 public class AdderMain {
 
     public static void main(String[] args) {
 
-        AdderOverloadingExample addobj = new AdderOverloadingExample();
+        Adder addobj = new Adder();
 
         addobj.sum();
 

@@ -1,3 +1,5 @@
+package StringExercises;
+
 import java.util.Arrays;
 
 public class SortingStrings {

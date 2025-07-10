@@ -1,4 +1,4 @@
-package Box;
+package BoxConstructorOverloadingExample;
 
 public class BoxMain {
 
@@ -8,7 +8,7 @@ public class BoxMain {
 
         //BoxConstructorOverloadingExample box = new BoxConstructorOverloadingExample(10.5, 15.5, 5.5);
 
-        BoxConstructorOverloadingExample box = new BoxConstructorOverloadingExample(10.5);
+        Box box = new Box(10.5);
 
         System.out.println(box.volume());
 

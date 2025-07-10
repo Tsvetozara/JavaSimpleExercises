@@ -1,6 +1,6 @@
-package Adder;
+package AdderOverloadingExample;
 
-public class AdderOverloadingExample {
+public class Adder {
 
     int a=10, b=20;
 
