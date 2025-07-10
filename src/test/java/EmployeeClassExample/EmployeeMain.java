@@ -1,4 +1,6 @@
-package Employee;
+package EmployeeClassExample;
+
+import EmployeeClassExample.Employee;
 
 public class EmployeeMain {
 
