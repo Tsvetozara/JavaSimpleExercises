@@ -1,4 +1,4 @@
-package BoxConstructorOverloadingExample;
+package ConstructorOverloadingExample;
 
 public class Box {
 

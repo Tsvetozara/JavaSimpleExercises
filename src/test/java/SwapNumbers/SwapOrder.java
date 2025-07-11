@@ -1,3 +1,5 @@
+package SwapNumbers;
+
 import java.util.Scanner;
 
 public class SwapOrder {

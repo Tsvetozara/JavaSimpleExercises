@@ -1,4 +1,4 @@
-package EmployeeClassExample;
+package ClassExample;
 
 public class Employee {
 

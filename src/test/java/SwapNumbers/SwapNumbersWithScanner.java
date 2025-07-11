@@ -1,6 +1,8 @@
+package SwapNumbers;
+
 import java.util.Scanner;
 
-public class SwapNumbers {
+public class SwapNumbersWithScanner {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

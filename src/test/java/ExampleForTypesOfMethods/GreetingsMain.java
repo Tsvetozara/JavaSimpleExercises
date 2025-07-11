@@ -1,4 +1,4 @@
-package GreetingsExampleForTypesOfMethods;
+package ExampleForTypesOfMethods;
 
 public class GreetingsMain {
 

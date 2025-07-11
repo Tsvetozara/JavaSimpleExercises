@@ -1,4 +1,4 @@
-package StudentDifferentWaysToStoreDataInVariable;
+package DifferentWaysToStoreDataInVariable;
 
 public class Student {
 

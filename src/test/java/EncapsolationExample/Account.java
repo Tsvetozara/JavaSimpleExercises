@@ -1,4 +1,4 @@
-package AccountEncapsolationExample;
+package EncapsolationExample;
 
 public class Account {
 
