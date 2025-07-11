@@ -1,5 +1,3 @@
-package This;
-
 public class ThisKeyword {
 
     int x,y;  //class variables / instance variables
