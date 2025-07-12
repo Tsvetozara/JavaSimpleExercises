@@ -1,3 +1,5 @@
+package ArithmeticExercises;
+
 class PrePostDemo {
     public static void main(String[] args){
         int i = 3;

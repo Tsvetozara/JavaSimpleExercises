@@ -1,3 +1,5 @@
+package ArithmeticExercises;
+
 class ArithmeticDemo {
 
     public static void main (String[] args){

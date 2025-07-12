@@ -1,3 +1,5 @@
+package IfElseExamples;
+
 public class IfElseDemo {
         public static void main(String[] args) {
             int testscore = 76;

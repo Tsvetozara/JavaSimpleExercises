@@ -1,3 +1,5 @@
+package ArithmeticExercises;
+
 class UnaryDemo {
 
     public static void main(String[] args){

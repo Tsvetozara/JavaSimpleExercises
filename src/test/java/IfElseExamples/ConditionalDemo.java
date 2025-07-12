@@ -1,4 +1,6 @@
-class ConditionalDemo1 {
+package IfElseExamples;
+
+class ConditionalDemo {
 
     public static void main(String[] args){
         int value1 = 1;

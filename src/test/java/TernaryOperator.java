@@ -1,4 +1,4 @@
-class ConditionalDemo2 {
+class TernaryOperator {
 
     public static void main(String[] args) {
 

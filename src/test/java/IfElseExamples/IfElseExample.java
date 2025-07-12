@@ -1,3 +1,5 @@
+package IfElseExamples;
+
 import java.util.Scanner;
 
 public class IfElseExample {
