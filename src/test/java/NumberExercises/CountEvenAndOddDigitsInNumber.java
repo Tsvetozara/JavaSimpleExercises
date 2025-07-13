@@ -1,3 +1,5 @@
+package NumberExercises;
+
 public class CountEvenAndOddDigitsInNumber {
 
     public static void main(String[] args) {

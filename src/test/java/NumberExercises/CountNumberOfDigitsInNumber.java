@@ -1,3 +1,5 @@
+package NumberExercises;
+
 public class CountNumberOfDigitsInNumber {
 
     public static void main(String[] args) {
