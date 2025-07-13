@@ -1,4 +1,4 @@
-package NumberExercises;
+package NumbersExercises;
 
 public class CountEvenAndOddDigitsInNumber {
 
