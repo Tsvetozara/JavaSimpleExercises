@@ -2,19 +2,18 @@ package FileHandling;
 
 import java.io.File;
 
-public class FolderActions{
+public class FolderActions {
 
-        //Create folder
+    //Create folder
     public static void createFolder(String folderpath) {
         File folder = new File(folderpath);
-        if (!folder.exists())
-        {
+        if (!folder.exists()) {
             folder.mkdir();
             System.out.println("Folder created in: " + folderpath);
         }
     }
 
-        //Check if folder exists
+    //Check if folder exists
     public static boolean checkFolderExists(String folderpath) {
         File folder = new File(folderpath);
         return folder.exists();
@@ -22,23 +21,20 @@ public class FolderActions{
 
     //Rename a folder
 
-    public static void renameFolder(String oldPath, String newPath){
+    public static void renameFolder(String oldPath, String newPath) {
         File oldFolder = new File(oldPath);
         File newFolder = new File(newPath);
 
-        if(oldFolder.exists())
-        {
+        if (oldFolder.exists()) {
             oldFolder.renameTo(newFolder);
             System.out.println("Folder renamed to: " + newPath);
         }
     }
 
-    public static void deleteFolder(String folderPath)
-    {
+    public static void deleteFolder(String folderPath) {
         File folder = new File(folderPath);
-        if(folder.exists()) {
-            for (File file : folder.listFiles())
-            {
+        if (folder.exists()) {
+            for (File file : folder.listFiles()) {
                 file.delete();
             }
             folder.delete();
@@ -48,17 +44,17 @@ public class FolderActions{
 
     public static void main(String[] args) {
 
-            String folderpath = "C:\\myfiles";
+        String folderpath = "C:\\myfiles";
 
-            createFolder(folderpath);
+        createFolder(folderpath);
 
-            boolean folderExists = checkFolderExists(folderpath);
-            System.out.println("Folder exists: " + folderExists);
+        boolean folderExists = checkFolderExists(folderpath);
+        System.out.println("Folder exists: " + folderExists);
 
-            String newFolderpath = "C:\\myfiles1";
-            renameFolder(folderpath, newFolderpath);
+        String newFolderpath = "C:\\myfiles1";
+        renameFolder(folderpath, newFolderpath);
 
-            deleteFolder(newFolderpath);
+        deleteFolder(newFolderpath);
 
     }
 }

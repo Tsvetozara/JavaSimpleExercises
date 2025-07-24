@@ -1,4 +1,4 @@
-package OverridingExample.Palindrome;
+package Palindrome;
 
 import java.util.Scanner;
 

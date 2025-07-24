@@ -5,7 +5,7 @@ public class MissingNumberInArray {
     public static void main(String[] args) {
 
         // Array should not have duplicates
-        // Array no need to be sorted order
+        // Array no need to be in sorted order
         // Values should be in range
 
         int a[] = {1,2,3,4,5,7,8,9,10};
