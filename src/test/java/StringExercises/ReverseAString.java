@@ -37,4 +37,4 @@ public class ReverseAString {
         StringBuilder b = new StringBuilder("welcome");
         System.out.println("Reverse string is: " + b.reverse());
     }
-    }
+}

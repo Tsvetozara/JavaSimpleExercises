@@ -4,14 +4,12 @@ public class Dog extends Animal {
 
     String color = "black";
 
-    void displayColor()
-    {
+    void displayColor() {
         System.out.println(super.color);
         System.out.println(color);
     }
 
-    void eat()
-    {
+    void eat() {
         System.out.println("Eating bread.....");
         super.eat();
     }

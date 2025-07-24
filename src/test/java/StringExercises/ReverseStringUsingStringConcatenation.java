@@ -9,9 +9,9 @@ public class ReverseStringUsingStringConcatenation {
 
         int len = str.length();   //4
 
-        for(int i=len-1; i>=0; i--)      //3 2 1 0
+        for (int i = len - 1; i >= 0; i--)      //3 2 1 0
         {
-            rev = rev +  str.charAt(i); // D C B A
+            rev = rev + str.charAt(i); // D C B A
         }
 
         System.out.println(rev);

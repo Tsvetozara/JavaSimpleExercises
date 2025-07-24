@@ -4,7 +4,7 @@ public class PrintEvenNumbers {
 
     public static void main(String[] args) {
 
-        int i=1;
+        int i = 1;
 
        /* while(i<=10) {
             if(i%2==0){
@@ -14,10 +14,10 @@ public class PrintEvenNumbers {
         }
         */
 
-        while(i<=10){
-            if(i%2==0){
+        while (i <= 10) {
+            if (i % 2 == 0) {
                 System.out.println(i + " is even number");
-            }else {
+            } else {
                 System.out.println(i + " is odd number");
             }
             i++;

@@ -24,8 +24,7 @@ public class Factorial {
 
         // in descending order
 
-        for(int i = num; i>=1; i--)
-        {
+        for (int i = num; i >= 1; i--) {
             factorial = factorial * i;
         }
         System.out.println("Factorial of a number is " + factorial);

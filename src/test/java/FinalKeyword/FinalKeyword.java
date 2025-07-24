@@ -6,9 +6,9 @@ public class FinalKeyword {
 
         Test t = new Test();
 
-        t.x=200;  // we are able to change the value of x
+        t.x = 200;  // we are able to change the value of x
 
-       // t.y = 300; // we are not able to assign value to y because it is final
+        // t.y = 300; // we are not able to assign value to y because it is final
 
         System.out.println(t.x);
 

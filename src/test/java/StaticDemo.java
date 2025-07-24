@@ -1,7 +1,7 @@
 public class StaticDemo {
 
-    static int a=10;  //static variable
-    int b=20;  //non-static variable
+    static int a = 10;  //static variable
+    int b = 20;  //non-static variable
 
     static void m1()  //static method
     {

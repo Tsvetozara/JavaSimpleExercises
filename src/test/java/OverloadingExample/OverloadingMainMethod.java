@@ -2,18 +2,15 @@ package OverloadingExample;
 
 public class OverloadingMainMethod {
 
-    void main(int x)
-    {
+    void main(int x) {
         System.out.println(x);
     }
 
-    void main(String s)
-    {
+    void main(String s) {
         System.out.println(s);
     }
 
-    void main(String s1, String s2)
-    {
+    void main(String s1, String s2) {
         System.out.println(s1 + s2);
     }
 

@@ -11,7 +11,7 @@ public class GreetingsMain {
         String s = gr.m2();
         System.out.println(s);
 
-       // System.out.println(gr.m2());
+        // System.out.println(gr.m2());
 
         gr.m3("John");
 

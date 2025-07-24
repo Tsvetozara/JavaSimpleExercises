@@ -12,23 +12,17 @@ public class MultipleCatchBlocks {
 
         try {
             System.out.println(s.length());
-        }
-        catch (ArithmeticException e)
-        {
+        } catch (ArithmeticException e) {
             System.out.println("Handle exception....");
             System.out.println(e.getMessage());
-        }
-        catch (NullPointerException e)
-        {
+        } catch (NullPointerException e) {
             System.out.println("Handle exception....");
             System.out.println(e.getMessage());
-        }
-        catch (NumberFormatException e)
-        {
+        } catch (NumberFormatException e) {
             System.out.println("Handle exception....");
             System.out.println(e.getMessage());
-        }
-        catch (Exception e) //if you don't know what type of exception you will get you can use - Exception e - it will handle all types of exceptions
+        } catch (
+                Exception e) //if you don't know what type of exception you will get you can use - Exception e - it will handle all types of exceptions
         {
             System.out.println("Handle exception....");
             System.out.println(e.getMessage());

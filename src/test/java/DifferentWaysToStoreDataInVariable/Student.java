@@ -7,8 +7,7 @@ public class Student {
     String sname;
     char grade;
 
-    void printStudentData()
-    {
+    void printStudentData() {
         System.out.println(sid + "   " + sname + "   " + grade);
     }
 
@@ -19,8 +18,7 @@ public class Student {
         grade = gr;
     }
 
-    Student(int id, String name, char gr)
-    {
+    Student(int id, String name, char gr) {
         sid = id;
         sname = name;
         grade = gr;

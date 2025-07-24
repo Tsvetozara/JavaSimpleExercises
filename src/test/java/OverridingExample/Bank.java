@@ -2,8 +2,7 @@ package OverridingExample;
 
 public class Bank {
 
-    double roi()
-    {
+    double roi() {
         return 0;
     }
 }

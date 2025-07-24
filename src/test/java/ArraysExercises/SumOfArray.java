@@ -8,8 +8,7 @@ public class SumOfArray {
 
         int sum = 0;
 
-        for(int i=0; i<=a.length-1; i++ )
-        {
+        for (int i = 0; i <= a.length - 1; i++) {
             sum = sum + a[i];
         }
 
@@ -21,8 +20,7 @@ public class SumOfArray {
 
         int sumb = 0;
 
-        for(int value: b )
-        {
+        for (int value : b) {
             sumb = sumb + value;
         }
 

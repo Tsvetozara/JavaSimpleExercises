@@ -1,4 +1,4 @@
-package TernaryOperator;
+package Super.TernaryOperator;
 
 import java.util.Scanner;
 
@@ -21,11 +21,11 @@ public class Largestof4NumbersTernary {
         int d = sc.nextInt();
 
 
-        int largest1 = a>b?a:b; // largest of a and b
+        int largest1 = a > b ? a : b; // largest of a and b
 
-        int largest2 = c>largest1?c:largest1; //largest of c and largest1
+        int largest2 = c > largest1 ? c : largest1; //largest of c and largest1
 
-        int largest3 = d>largest2?d:largest2; //largest of d and largest2
+        int largest3 = d > largest2 ? d : largest2; //largest of d and largest2
 
         System.out.println(largest3 + " is the largest number");
     }

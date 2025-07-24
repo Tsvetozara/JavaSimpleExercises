@@ -48,9 +48,8 @@ public class HashMapDemo {
 
         //Using for..each
 
-        for(int k: hm.keySet())
-        {
-            System.out.println(k+ "   "+hm.get(k));
+        for (int k : hm.keySet()) {
+            System.out.println(k + "   " + hm.get(k));
         }
 
 

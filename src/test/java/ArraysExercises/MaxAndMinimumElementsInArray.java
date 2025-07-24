@@ -8,10 +8,8 @@ public class MaxAndMinimumElementsInArray {
 
         int max = a[0];
 
-        for(int i=1; i<a.length; i++)
-        {
-            if(a[i]>max)
-            {
+        for (int i = 1; i < a.length; i++) {
+            if (a[i] > max) {
                 max = a[i];
             }
         }
@@ -20,10 +18,8 @@ public class MaxAndMinimumElementsInArray {
 
         int min = a[0];
 
-        for(int i=1; i<a.length; i++)
-        {
-            if(a[i]<min)
-            {
+        for (int i = 1; i < a.length; i++) {
+            if (a[i] < min) {
                 min = a[i];
             }
         }

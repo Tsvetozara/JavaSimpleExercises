@@ -2,12 +2,11 @@ package Interface;
 
 public class InterfaceDemo implements Shape {
 
-    void triangle()
-    {
+    void triangle() {
         System.out.println("This is a triangle.....");
     }
 
-    int x=100, y=200;
+    int x = 100, y = 200;
 
     public static void main(String[] args) {
 
@@ -37,6 +36,7 @@ public class InterfaceDemo implements Shape {
         System.out.println(Shape.length * Shape.width); //accessing static variables directly
 
     }
+
     @Override
     public void circle() {
 

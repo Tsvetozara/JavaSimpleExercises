@@ -19,10 +19,10 @@ public class TwoDimensionalArray {
 
         //Approach 2
 
-        int a[][]= {{100,200},
-                    {300,400},
-                    {500,600}
-           };
+        int a[][] = {{100, 200},
+                {300, 400},
+                {500, 600}
+        };
 
         //Find size of an array
 
@@ -33,8 +33,8 @@ public class TwoDimensionalArray {
 
         //normal for
 
-        for(int r=0; r<=a.length-1; r++){
-            for(int c=0; c<=a[r].length-1;c++){
+        for (int r = 0; r <= a.length - 1; r++) {
+            for (int c = 0; c <= a[r].length - 1; c++) {
                 System.out.println(a[r][c]);
             }
         }

@@ -2,7 +2,7 @@ package Interface;
 
 //Multiple inheritance
 
-public class ClassOne extends ClassTwo implements InterfaceOne, InterfaceTwo{
+public class ClassOne extends ClassTwo implements InterfaceOne, InterfaceTwo {
 
     public static void main(String[] args) {
 

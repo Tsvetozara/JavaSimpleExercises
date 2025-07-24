@@ -25,11 +25,11 @@ public class SingleDimensionalArray {
 
         System.out.println("Length of an array:" + a.length);
 
-       // System.out.println(a[4]);
+        // System.out.println(a[4]);
 
         //reading all the values from array
 
-        for(int i=0; i<=a.length-1; i++){
+        for (int i = 0; i <= a.length - 1; i++) {
             System.out.println(a[i]);
         }
     }

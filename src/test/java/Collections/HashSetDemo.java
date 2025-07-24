@@ -50,8 +50,7 @@ public class HashSetDemo {
         System.out.println(al.get(2));
 
         //Read all the elements using for..each
-        for(Object x:myset)
-        {
+        for (Object x : myset) {
             System.out.println(x);
         }
 
@@ -59,8 +58,7 @@ public class HashSetDemo {
 
         Iterator it = myset.iterator();
 
-        while(it.hasNext())
-        {
+        while (it.hasNext()) {
             System.out.println(it.next());
         }
 

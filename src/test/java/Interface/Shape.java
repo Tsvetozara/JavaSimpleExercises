@@ -12,8 +12,7 @@ public interface Shape {
         System.out.println("This is a square.....");
     }
 
-    static void rectangle()
-    {
+    static void rectangle() {
         System.out.println("This is rectangle - static method");
     }
 }

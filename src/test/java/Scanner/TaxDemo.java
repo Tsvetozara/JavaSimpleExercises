@@ -1,3 +1,5 @@
+package Scanner;
+
 import java.util.Scanner;
 
 public class TaxDemo {
@@ -8,7 +10,7 @@ public class TaxDemo {
         double salary = scanner.nextDouble();
 
         double tax = 0;
-        if(salary > 2000) {
+        if (salary > 2000) {
             tax = salary * 0.1;
             salary = salary - tax;
         }

@@ -28,11 +28,11 @@ public class StringOperations {
         System.out.println(s1.concat(s2));
         System.out.println(s1 + s2 + s3);
         System.out.println(s1.concat(s2).concat(s3));
-        System.out.println(s1.concat(s2+s3));
+        System.out.println(s1.concat(s2 + s3));
 
         //trim() - remove spaces right and left
 
-        s="   welcome   ";
+        s = "   welcome   ";
 
         System.out.println(s);
 
@@ -43,7 +43,7 @@ public class StringOperations {
         //charAt() - returns a character from a string based on index
         //index start from 0
 
-        s= "welcome";
+        s = "welcome";
 
         System.out.println(s.charAt(3));
         System.out.println(s.charAt(0));
@@ -56,16 +56,16 @@ public class StringOperations {
 
         //equals(), equalsIgnoreCase() - compare strings
 
-        s1= "welcome";
-        s2= "welcome";
+        s1 = "welcome";
+        s2 = "welcome";
 
-        System.out.println(s1==s2); //true
+        System.out.println(s1 == s2); //true
         System.out.println(s1.equals(s2));  //true
         System.out.println(s1.equals("Welcome")); //false
 
         //replace() - replace single/multiple(sequence) of characters in a string
 
-        s= "welcome to selenium java selenium python selenium c#";
+        s = "welcome to selenium java selenium python selenium c#";
         System.out.println(s.replace('e', 'X'));
 
         System.out.println(s.replace("selenium", "playwrigth"));
@@ -74,9 +74,9 @@ public class StringOperations {
         //starting index - 0
         //ending index - 1
 
-        s= "Selenium";
-        System.out.println(s.substring(1,5)); //elen
-        System.out.println(s.substring(0,3));
+        s = "Selenium";
+        System.out.println(s.substring(1, 5)); //elen
+        System.out.println(s.substring(0, 3));
 
         //toUpperCase()  toLowerCase()
 
@@ -85,9 +85,9 @@ public class StringOperations {
 
         //split() - split the string into multiple parts based on delimiter
 
-        s= "abc@gmail.com";
+        s = "abc@gmail.com";
 
-        String a[]=s.split("@");
+        String a[] = s.split("@");
         System.out.println(a[0]);
         System.out.println(a[1]);
 
@@ -95,12 +95,12 @@ public class StringOperations {
 
         //ex1
 
-        String amount= "$15,20,55";
+        String amount = "$15,20,55";
         System.out.println(amount.replace("$", "").replace(",", ""));
 
         //ex2
 
-        s= "abc,123@xyz";
+        s = "abc,123@xyz";
 
         String arr1[] = s.split(",");
 
@@ -116,8 +116,8 @@ public class StringOperations {
 
         //ex3
 
-        s= "abc 123";
-        String ar[]= s.split(" ");
+        s = "abc 123";
+        String ar[] = s.split(" ");
         System.out.println(Arrays.toString(ar));
 
         //% * $ ( ) ^ - you cannot use as a delimiter
@@ -131,5 +131,5 @@ public class StringOperations {
         System.out.println(name.replace('J', 'j').contains("john")); //true
         System.out.println(name.toLowerCase().contains("john"));
 
-        }
+    }
 }

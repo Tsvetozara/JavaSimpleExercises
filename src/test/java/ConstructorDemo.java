@@ -14,16 +14,15 @@ public class ConstructorDemo {
         y = b;
     }
 
-    void sum()
-    {
-        System.out.println(x+y);
+    void sum() {
+        System.out.println(x + y);
     }
 
     public static void main(String[] args) {
 
         ConstructorDemo cd = new ConstructorDemo(); // invoke default constructor
 
-        ConstructorDemo ad = new ConstructorDemo(10,20); //invoke parameterized constructor
+        ConstructorDemo ad = new ConstructorDemo(10, 20); //invoke parameterized constructor
 
         ad.sum();
         cd.sum();

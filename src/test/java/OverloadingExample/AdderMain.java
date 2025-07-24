@@ -8,7 +8,7 @@ public class AdderMain {
 
         addobj.sum();
 
-        addobj.sum(100,200);
+        addobj.sum(100, 200);
 
         addobj.sum(100, 10.5);
 

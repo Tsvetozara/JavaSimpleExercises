@@ -13,9 +13,7 @@ public class HandleException1 {
 
         try {
             System.out.println(100 / num);
-        }
-        catch(ArithmeticException e)
-        {
+        } catch (ArithmeticException e) {
             System.out.println("Invalid data");
         }
         //if the user enters invalid number such as zero - the exception will be caught

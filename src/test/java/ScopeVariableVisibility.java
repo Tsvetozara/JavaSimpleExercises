@@ -10,7 +10,7 @@ public class ScopeVariableVisibility {
 
             outer = inner;
 
-            if(inner == 2) {
+            if (inner == 2) {
                 System.out.println("yee inner e = " + inner);
             }
         }

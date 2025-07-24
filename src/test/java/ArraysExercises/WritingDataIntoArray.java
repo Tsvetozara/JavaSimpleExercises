@@ -11,10 +11,9 @@ public class WritingDataIntoArray {
 
         Scanner sc = new Scanner(System.in);
 
-        for(int i=0; i<a.length; i++)
-        {
+        for (int i = 0; i < a.length; i++) {
             System.out.println("Enter a value for the position " + i + ":");
-            a[i]=sc.nextInt();
+            a[i] = sc.nextInt();
         }
 
         System.out.println("printing array elements.........");

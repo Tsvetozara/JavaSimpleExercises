@@ -6,8 +6,7 @@ public class SwitchCase {
 
         String weekname = "Sunday";
 
-        switch (weekname)
-        {
+        switch (weekname) {
             case "Sunday":
                 System.out.println("Number of weekday is 1");
                 break;

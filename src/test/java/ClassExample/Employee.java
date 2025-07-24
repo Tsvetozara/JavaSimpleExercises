@@ -11,8 +11,7 @@ public class Employee {
 
     //Methods
 
-    void display()
-    {
+    void display() {
         System.out.println(eid);
         System.out.println(ename);
         System.out.println(job);

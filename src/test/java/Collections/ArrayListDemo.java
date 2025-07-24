@@ -63,8 +63,7 @@ public class ArrayListDemo {
 
         //using enhanced for loop (for..each loop)
 
-        for (Object x : mylist)
-        {
+        for (Object x : mylist) {
             System.out.println(x);
         }
 
@@ -72,8 +71,7 @@ public class ArrayListDemo {
 
         Iterator it = mylist.iterator();
 
-        while(it.hasNext())
-        {
+        while (it.hasNext()) {
             System.out.println(it.next());
         }
 

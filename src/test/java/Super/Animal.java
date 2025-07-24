@@ -4,8 +4,7 @@ public class Animal {
 
     String color = "white";
 
-    void eat()
-    {
+    void eat() {
         System.out.println("Eating.....");
     }
 }

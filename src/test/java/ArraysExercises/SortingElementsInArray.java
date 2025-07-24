@@ -21,7 +21,7 @@ public class SortingElementsInArray {
 
         //prints elements in array
         //for(int value:a){
-         //   System.out.println(value);
-       // }
+        //   System.out.println(value);
+        // }
     }
 }

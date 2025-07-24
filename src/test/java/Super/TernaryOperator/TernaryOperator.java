@@ -1,4 +1,4 @@
-package TernaryOperator;
+package Super.TernaryOperator;
 
 class TernaryOperator {
 

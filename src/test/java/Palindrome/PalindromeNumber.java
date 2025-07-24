@@ -21,12 +21,11 @@ public class PalindromeNumber {
             num = num / 10;
         }
 
-       // System.out.println(rev);
+        // System.out.println(rev);
 
         if (org_num == rev) {
             System.out.println(org_num + " is a palindrome number");
-        } else
-        {
+        } else {
             System.out.println(org_num + " is not a palindrome number");
         }
     }

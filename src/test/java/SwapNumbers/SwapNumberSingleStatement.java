@@ -9,7 +9,7 @@ public class SwapNumberSingleStatement {
 
         System.out.println("Before swapping values are: " + a + " and " + b);
 
-        b = a + b - (a=b);
+        b = a + b - (a = b);
 
         System.out.println("After swapping values are: " + a + " and " + b);
 

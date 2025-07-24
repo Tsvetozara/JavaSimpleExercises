@@ -6,13 +6,11 @@ public class Test {
 
     final int y = 100;
 
-    void m()
-    {
+    void m() {
         System.out.println("This is a m method from Test class");
     }
 
-    final void k()
-    {
+    final void k() {
         System.out.println("This is a k method from Test class");
     }
 }

@@ -6,15 +6,12 @@ public class FinallyBlock {
 
         String s = null;
 
-        try{
+        try {
             System.out.println(s.length());
-        }
-         catch (Exception e)
-         {
+        } catch (Exception e) {
             System.out.println("Catch block handle exception....");
             System.out.println(e.getMessage());
-        }
-        finally {
+        } finally {
             System.out.println("You entered into finally block.....");
         }
 

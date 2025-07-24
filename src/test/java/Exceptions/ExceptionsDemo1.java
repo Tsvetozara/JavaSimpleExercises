@@ -11,7 +11,7 @@ public class ExceptionsDemo1 {
         System.out.println("Enter a number: ");
         int num = sc.nextInt();
 
-        System.out.println(100/num);
+        System.out.println(100 / num);
 
         //if the user enters invalid number such as zero - he will get an exception / Arithmetic exception
 

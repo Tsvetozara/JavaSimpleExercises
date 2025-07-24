@@ -2,7 +2,7 @@ package ArithmeticExercises;
 
 class UnaryDemo {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // result is now 1
         int result = +1;
         System.out.println(result);

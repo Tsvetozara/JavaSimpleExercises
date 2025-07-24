@@ -2,7 +2,7 @@ package ArithmeticExercises;
 
 class ArithmeticDemo {
 
-    public static void main (String[] args){
+    public static void main(String[] args) {
 
         // result is now 3
         int result = 1 + 2;

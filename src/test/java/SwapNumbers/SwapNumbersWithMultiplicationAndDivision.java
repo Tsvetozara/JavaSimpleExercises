@@ -9,9 +9,9 @@ public class SwapNumbersWithMultiplicationAndDivision {
 
         System.out.println("Before swapping values are: " + a + " and " + b);
 
-        a = a*b;
-        b = a/b;
-        a = a/b;
+        a = a * b;
+        b = a / b;
+        a = a / b;
 
         System.out.println("After swapping values are: " + a + " and " + b);
     }

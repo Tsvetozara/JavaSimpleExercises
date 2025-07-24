@@ -10,8 +10,8 @@ public class SwapNumbersWithThirdVariable {
         System.out.println("Before swapping values are: " + a + " and " + b);
 
         int t = a;
-        a=b;
-        b=t;
+        a = b;
+        b = t;
 
         System.out.println("After swapping values are: " + a + " and " + b);
 

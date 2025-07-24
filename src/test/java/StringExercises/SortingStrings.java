@@ -6,7 +6,7 @@ public class SortingStrings {
 
     public static void main(String[] args) {
 
-        String s[]= {"Scott", "Marry", "John", "David"};
+        String s[] = {"Scott", "Marry", "John", "David"};
 
         //char s[]= {'D', 'C', 'A', 'B'};
 
