@@ -43,8 +43,7 @@ public class ReadPropertiesFile {
         System.out.println(values);
 
         //Read all the properties along with the values
-        for(String key: properties.stringPropertyNames())
-        {
+        for (String key : properties.stringPropertyNames()) {
             System.out.println(key + "   " + properties.getProperty(key));
         }
     }

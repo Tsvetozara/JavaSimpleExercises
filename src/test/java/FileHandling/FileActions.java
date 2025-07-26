@@ -50,40 +50,31 @@ public class FileActions {
                 System.out.println(data);
             }
             myReader.close();
-        } catch (FileNotFoundException e)
-        {
+        } catch (FileNotFoundException e) {
             System.out.println("An error occurred while reading");
             e.printStackTrace();
         }
     }
 
     //Renaming a file
-    public static void renameFile(String oldfilePath, String newFilePath)
-    {
+    public static void renameFile(String oldfilePath, String newFilePath) {
         File oldfile = new File(oldfilePath);
         File newfile = new File(newFilePath);
 
-        if(oldfile.renameTo(newfile))
-        {
+        if (oldfile.renameTo(newfile)) {
             System.out.println("File is renamed.");
-        }
-        else
-        {
+        } else {
             System.out.println("The file cannot be renamed.");
         }
     }
 
     //Deleting a file
-    public static void deleteFile(String filePath)
-    {
+    public static void deleteFile(String filePath) {
         File myObj = new File(filePath);
 
-        if(myObj.delete())
-        {
+        if (myObj.delete()) {
             System.out.println("Deleted the file " + myObj.getName());
-        }
-        else
-        {
+        } else {
             System.out.println("Failed to delete the file.");
         }
     }

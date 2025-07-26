@@ -1,0 +1,16 @@
+{
+  "firstName": "Tsveti",
+  "lastName": "Beneva",
+  "address": [
+    {
+      "street": "abc",
+      "city": "Sofia",
+      "state": "Lulin"
+    },
+    {
+      "street": "xyz",
+      "city": "Gabrovo",
+      "state": "TTT"
+    }
+  ]
+}
