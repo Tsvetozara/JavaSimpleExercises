@@ -1,4 +1,4 @@
-package FileHandling;
+package FileHandling.PropertiesFile;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -14,7 +14,7 @@ public class ReadPropertiesFile {
 
         Properties properties = new Properties();
 
-        String filePath = System.getProperty("user.dir") + "\\src\\test\\java\\FileHandling\\data";
+        String filePath = System.getProperty("user.dir") + "\\src\\test\\java\\FileHandling\\PropertiesFile\\data";
 
         FileInputStream file = new FileInputStream(filePath);
 

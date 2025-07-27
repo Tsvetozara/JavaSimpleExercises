@@ -1,4 +1,4 @@
-package FileHandling;
+package FileHandling.PropertiesFile;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -14,7 +14,7 @@ public class WritePropertiesFile {
         properties.setProperty("email", "abc@gmail.com");
         properties.setProperty("age", "35");
 
-        String filePath = System.getProperty("user.dir") + "\\src\\test\\java\\FileHandling\\data";
+        String filePath = System.getProperty("user.dir") + "\\src\\test\\java\\FileHandling\\PropertiesFile\\data";
 
         FileOutputStream file = new FileOutputStream(filePath);
 

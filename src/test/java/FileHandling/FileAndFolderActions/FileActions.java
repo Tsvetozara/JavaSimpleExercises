@@ -1,4 +1,4 @@
-package FileHandling;
+package FileHandling.FileAndFolderActions;
 
 import java.io.File;
 import java.io.FileNotFoundException;

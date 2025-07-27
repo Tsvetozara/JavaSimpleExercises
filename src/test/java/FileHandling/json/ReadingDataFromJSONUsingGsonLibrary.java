@@ -5,7 +5,7 @@ import com.google.gson.Gson;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 
-public class ReadingDataFromJsonUsingGsonLibrary {
+public class ReadingDataFromJSONUsingGsonLibrary {
 
     public static void main(String[] args) throws FileNotFoundException {
 
